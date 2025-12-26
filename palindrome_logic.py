@@ -27,3 +27,15 @@ print(is_palindrome(str))
 # Reverse String
 
 # Pair Sum
+
+# String Manipulation
+
+# Anagram Check
+
+# Longest Palindromic Substring
+
+# Palindrome Number
+
+# Valid Palindrome
+
+# Permutation Palindrome

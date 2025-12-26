@@ -25,3 +25,8 @@ print(longest_substring("abcabcbb"))  # Output: 3 ("abc")
 # subarray sum
 
 # count something in continuous range
+
+# maximum / minimum in sliding window
+
+# problems involving contiguous sequences
+

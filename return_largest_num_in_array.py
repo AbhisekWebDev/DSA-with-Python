@@ -19,3 +19,13 @@ max_num(arr)
 # Comparison
 
 # Maintaining a variable
+
+# Used in:
+
+# Finding maximum / minimum values
+
+# Statistical calculations (mean, median, mode)
+
+# Data analysis tasks
+
+# Optimization problems

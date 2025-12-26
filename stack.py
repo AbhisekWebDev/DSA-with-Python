@@ -18,3 +18,22 @@ print(isValid("()"))          # Output: True
 print(isValid("()[]{}"))      # Output: True
 print(isValid("(]"))         # Output: False
 print(isValid("([)]"))       # Output: False
+
+
+# Used in:
+
+# Valid Parentheses
+
+# Next Greater Element
+
+# Undo / Back Navigation
+
+# Evaluate Expression
+
+# Min Stack
+
+# Browser History Navigation
+
+# Balanced Brackets in Code Editors
+
+# Syntax Checking in Compilers
