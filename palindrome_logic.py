@@ -14,3 +14,16 @@ def is_palindrome(s):
     return True
 
 print(is_palindrome(str))
+
+
+# Used in:
+
+# Remove Duplicates
+
+# Trapping Rain Water
+
+# 3Sum
+
+# Reverse String
+
+# Pair Sum
