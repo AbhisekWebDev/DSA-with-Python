@@ -29,3 +29,15 @@ if result != -1:
 else:
     print("Element not found in array")
 
+
+
+# Used in:
+
+# Searching in Sorted Arrays
+
+# Finding Insertion Points
+
+# Efficient Lookups in Databases
+
+# Print the result of the search
+
