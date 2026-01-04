@@ -27,3 +27,9 @@ nums = [5,2,3,1]
 sol = Solution()
 ans = sol.sortArray(nums)
 print(ans)
+
+
+# space complexity = O(1)
+# time complexity = 
+#     worst = O(n^2)
+#     best = O(n^2)
