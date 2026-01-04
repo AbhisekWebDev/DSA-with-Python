@@ -44,7 +44,7 @@ def create_linked_list(arr):
     
     return head
 
-head = create_linked_list([1, 2, 3, 4, 4, 2, 1])
+head = create_linked_list([1, 1, 2, 3, 3, 4, 4])
 
 print("Original List:")
 printList(head)
