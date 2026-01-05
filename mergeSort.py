@@ -62,3 +62,7 @@ nums = [5,2,3,1]
 sol = Solution()
 ans = sol.sortArray(nums)
 print(ans)
+
+
+# space complexity = O(n)
+# time complexity = O(nlogn) [worst, best, avg]
