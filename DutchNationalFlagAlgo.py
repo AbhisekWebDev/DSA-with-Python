@@ -73,5 +73,4 @@ sol = Solution()
 ans = sol.sortColors(nums)
 print(ans)
 
-# space complexity = O(1)
-# time complexity = O(nlogn) [avg]
+# it uses two pointers and sorting
