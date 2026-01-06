@@ -1,6 +1,6 @@
 # “Dutch National Flag” is the classic algorithm behind LeetCode Problem 75 – Sort Colors.
 
-# 📌 LeetCode Details
+# LeetCode Details
 
 # Problem Name: Sort Colors
 
