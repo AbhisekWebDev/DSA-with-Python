@@ -3,7 +3,7 @@
 
 class Solution:
 
-    def lowerBound(self, nums, target) :
+    def upperBound(self, nums, target) :
         
         n = len(nums)
         l = 0
@@ -28,7 +28,7 @@ class Solution:
 
     def searchInsert(self, nums, target: int) -> int:
         
-        return self.lowerBound(nums, target)
+        return self.upperBound(nums, target)
 
 nums = [1,3,5,6]
 target = 5
