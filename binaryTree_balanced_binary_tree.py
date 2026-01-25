@@ -91,3 +91,9 @@ root.right = TreeNode(2)
 root.left.left = TreeNode(3)
 root.left.left.left = TreeNode(4)
 print(Solution().isBalanced(root))
+
+
+# Key Notes (Interview Tip):
+# ✔ Time Complexity: O(n)
+# ✔ Space Complexity: O(h) (recursion stack)
+# ✔ Efficient because height & balance are checked together
