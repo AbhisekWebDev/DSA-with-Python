@@ -24,36 +24,18 @@ for i in range(n) :
 
 print("DFS Traversal:") # DFS is implemented using stack
 
-# stack bnate h
-class Stack :
-    def __init__ (self) :
-        self.st = []
-
-    def push(self, x) :
-        self.st.append(x)
-    
-    def pop(self) :
-        if len(self.st) == 0 :
-            return None
-        return self.st.pop() # pop from end of list
-
-stack = Stack()
-
 visited = [False] * n # visited array
 
 ans = [] # to store DFS traversal
 
-stack.push(0) # start DFS from node 0
-visited[0] = True
-ans.append(0)
+def dfsRecursive(currNode, adjList, visited) :
+    visited[currNode] = True
+    print(currNode, end = " ")
 
-while len(stack.st) > 0 :
-    top = stack.pop()
-    for neighbour in adjList[top] :
+    for neighbour in adjList[currNode] :
         if not visited[neighbour] :
-            stack.push(neighbour)
-            visited[neighbour] = True
-            ans.append(neighbour)
+            dfsRecursive(neighbour, adjList, visited)
 
-print(ans) 
+dfsRecursive(0, adjList, visited) # 0 se shuru kr rhe nodes ka traversal
 
+print(ans)
