@@ -10,14 +10,15 @@ print("Adjacency Matrix:")
 adjMatrix = []
 
 for i in range(n) :
-    adjMatrix.append([0] * n) # create empty matrix for each node
-
-for edge in edges :
-    x = edge[0]
-    y = edge[1]
-
-    adjList[x].append(y) # add y to x's list
-    adjList[y].append(x) # add x to y's list
+    adjMatrix.append([-1] * n) # create empty matrix for each node
 
 for i in range(n) :
-    print(i, "->", adjList[i])
+    x = edges[i][0]
+    y = edges[i][1]
+
+    adjMatrix[x][y] = 1 # set adjacency matrix value to 1
+    adjMatrix[y][x] = 1 # set adjacency matrix value to 1
+
+for i in adjMatrix :
+    print(i)
+
